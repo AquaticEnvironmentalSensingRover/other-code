@@ -5,7 +5,7 @@ BUS = 1		 	# Which smbus to use
 ADDRESS = 0X48 	# Address of the device
 
 
-BUS = SMBUS.SMBUS(BUS)
+bus = smbus.SMBus(BUS)
 
 
 # Read two bytes from register 01, the config register
